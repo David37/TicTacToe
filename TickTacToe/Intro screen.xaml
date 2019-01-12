@@ -1,0 +1,19 @@
+﻿<Window x:Class="TickTacToe.Intro_screen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickTacToe"
+        mc:Ignorable="d"
+        Title="Intro_screen" Height="450" Width="800">
+
+    <Grid d:IsLocked="True">
+
+        <Button Background="Gray" Name="play" Content="PLAY" HorizontalAlignment="Left" Margin="342,126,0,0" VerticalAlignment="Top" Width="105" Height="44" Click="Button_Click" d:IsLocked="True"/>
+        <Button  Background="Gray" Name="Option1" IsEnabled="False" Content="X" HorizontalAlignment="Left" Margin="357,137,0,0" VerticalAlignment="Top" Width="75" Click="Option1_Click" d:IsLocked="True"/>
+        <Button  Background="Gray" Name="Option2" IsEnabled="False" Content="O" HorizontalAlignment="Left" Margin="357,175,0,0" VerticalAlignment="Top" Width="75" Click="Option2_Click" d:IsLocked="True"/>
+        <Label Foreground="White" Name="lblQuestions" Content="" HorizontalAlignment="Left" Margin="278,74,0,0" VerticalAlignment="Top" Width="234" d:IsLocked="True"/>
+        <Button Background="Gray" x:Name="quit" Content="QUIT" HorizontalAlignment="Left" Margin="342,175,0,0" VerticalAlignment="Top" Width="105" Height="44" Click="Button2_Click" d:IsLocked="True"/>
+
+    </Grid>
+</Window>
